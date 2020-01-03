@@ -1,0 +1,7 @@
+ng new angular8firebasecrud
+cd ./angular8firebasecrud/
+npm install --save firebase @angular/fire
+ng generate class policy --type=model
+ng generate service policy
+ng generate component policy-list
+
